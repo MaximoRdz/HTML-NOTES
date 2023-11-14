@@ -25,7 +25,7 @@ Used to create HTML elements
 		</ul>
 		```
 1. Nested Elements
-	Defined inside other HTML elements
+	Defined inside other HTML elements.
 	```html
 	<p>This is a paragraph with a <strong>nested element</strong>.</p>
 	```
