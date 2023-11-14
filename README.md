@@ -65,3 +65,10 @@ They are embed in the text, it is not necessary to close the label.
 	```
 ## Attributes
 They provide additional information to HTML elements, they can be **global** (`id`, `class`, …) or **specific** to that element (`src` is specific to images).
+## Semantic HTML
++ Header
++ Footer
++ section
++ article
++ aside
++ main
