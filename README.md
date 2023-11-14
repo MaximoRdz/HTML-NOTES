@@ -18,14 +18,14 @@
 </html>
 <!--This is a comment-->
 ```
-## Labels 
+## Tags 
 Used to create HTML elements
-1. Headers Label
+1. Headers 
 	All the way up from "h1" to "h6"
 	```html
 	<h1>This is the title 1</h1>
 	```
-1. Paragraph Label
+1. Paragraph 
 	```html
 	<p>This is a paragraph</p>
 	```
