@@ -5,81 +5,102 @@
         
     </head>
     <body>
-        <h1>Portfolio Máximo</h1>
+        <header>
+            <h1>Portfolio Máximo</h1>
 
-        <p>
-            Graduado en física por la <strong>Autónoma de Madrid</strong>. Especializado en 
-            computación.
-        </p>
-
-        <h2>Experiencia</h2>
-        <ul>
-            <li>AlignTechnology 2022 - 2023</li>
-            <li>Calar Alto Observatory BSc in Physics Thesis</li>
-        </ul>
-
-        <!--This is a comment-->
-
-        <img 
-            hidden  
-            class="image"
-            id="profile-picture"
-            width=250
-            height=250
-            title="Profile Picture" 
-            alt="Profile picture of Maximo" 
-            src="./images/profile.png"
-        >
-        <br>
-        <input type="file">
-        <br>
-        <input type="email">
-        <br>
-        <input type="date">
-
-        <h2>Projects</h2>
-        <section>
-            <ol>
-                <li>
-                    <header>
-                        <h3>Automatization</h3>
-                    </header>
-                </li>   
-                <p>
-                    Some projects here
-                    <footer>
-                        <small>Technologies used Python</small>
-                    </footer>
-                </p>
-                <li>
-                    <header>
-                        <h3>Data Science</h3>
-                    </header>
-                </li>
-                Some projects here
-                <li>
-                    <header>
-                        <h3>Machine Learning</h3>
-                    </header>
-                </li>
-                Some projects here
-            </ol>
-        </section>
-        <aside>
-            <!--This content is "aside" the main thopic so we place it in its 
-            own "box"-->
-            <header>
-                <h3>Favourite Technologies</h3>
+            <nav>
+                <!--anchor tag allows us to navigate internally or externally-->
+                <a href="#experiencia">Experiencia</a>
+                <a href="#projectos">Projectos</a>
+                <!--
+                    target attribute to open page on a new window
+                    rel attribute security not share more info than neccesary
+                -->
+                <a 
+                  href="https://github.com/MaximoRdz"
+                  target="_blank"
+                  rel="noreferrer"
+                >GitHub</a>
+            </nav>
+        </header>
+        <main>
+            <p>
+                Graduado en física por la <strong>Autónoma de Madrid</strong>. Especializado en 
+                computación.
+            </p>
+            <br><br><br><br><br><br><br><br><br>
+            <header >
+                <h2 id="experiencia">Experiencia</h2>
             </header>
-            <ol>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>                        
-                <li>Django</li>                
-            </ol>
-        </aside>
-        
+            <ul>
+                <li>AlignTechnology 2022 - 2023</li>
+                <li>Calar Alto Observatory BSc in Physics Thesis</li>
+            </ul>
 
+            <!--This is a comment-->
+
+            <img 
+                hidden  
+                class="image"
+                id="profile-picture"
+                width=250
+                height=250
+                title="Profile Picture" 
+                alt="Profile picture of Maximo" 
+                src="./images/profile.png"
+            >
+            <br><br><br><br><br><br><br><br><br>
+            <input type="file">
+            <br>
+            <input type="email">
+            <br>
+            <input type="date">
+            <header id="projectos">
+                <h2>Projects</h2>
+            </header>
+            
+            <section>
+                <ol>
+                    <li>
+                        <header>
+                            <h3>Automatization</h3>
+                        </header>
+                    </li>   
+                    <p>
+                        Some projects here
+                        <footer>
+                            <small>Technologies used Python</small>
+                        </footer>
+                    </p>
+                    <li>
+                        <header>
+                            <h3>Data Science</h3>
+                        </header>
+                    </li>
+                    Some projects here
+                    <li>
+                        <header>
+                            <h3>Machine Learning</h3>
+                        </header>
+                    </li>
+                    Some projects here
+                </ol>
+            </section>
+            <aside>
+                <!--This content is "aside" the main thopic so we place it in its 
+                own "box"-->
+                <header>
+                    <h3>Favourite Technologies</h3>
+                </header>
+                <ol>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>                        
+                    <li>Django</li>                
+                </ol>
+            </aside>
+        
+        </main>
     </body>
 </html>
 
