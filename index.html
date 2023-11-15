@@ -102,7 +102,61 @@
                     <li>Django</li>                
                 </ol>
             </aside>
-        
+
+            <section>
+                <h2>Formulario de contacto</h2>
+
+                <form method="post" action="/">
+                    <fieldset>
+                        <div>
+                            <legend>Informacion Personal</legend>
+                            <!--method one of label related to input-->
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" 
+                            placeholder="Name" required>
+                        </div>
+                        <!--method two of label related to input-->
+                        <div>
+                            <label>email
+                                <input type="email" name="email"
+                                placeholder="email@gmail.com" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>Teléfono
+                                <input type="tel" name="phone" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>Lenguaje de programación
+                                <datalist id="languages">
+                                    <option value="Python"></option>
+                                    <option value="C#"></option>
+                                    <option value="HTML"></option>
+                                    <option value="CSS"></option>
+
+                                </datalist>
+                                <input list="languages" name="leng" required>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         </main>
     </body>
 </html>
