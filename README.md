@@ -66,7 +66,7 @@ They are embed in the text, it is not necessary to close the label.
 ## Attributes
 They provide additional information to HTML elements, they can be **global** (`id`, `class`, …) or **specific** to that element (`src` is specific to images).
 ## Semantic HTML
-+ Header: 
++ `Header`: 
 + `Footer`:  
 + `Section`: Independent parts of the content
 + `Article`: Element with self contained information such that it could be extracted and move anywhere and it would keep its meaning.
