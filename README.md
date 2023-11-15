@@ -5,7 +5,7 @@
 <html>
 	<!--This html contains all the content of the document-->
 	<head>
-		<!--Metadata information that will not be rendered-->
+		<!--Metadata information that will not be rendered, check also open graph-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<title>Title that will appear when browsing this page</title>
@@ -66,9 +66,10 @@ They are embed in the text, it is not necessary to close the label.
 ## Attributes
 They provide additional information to HTML elements, they can be **global** (`id`, `class`, …) or **specific** to that element (`src` is specific to images).
 ## Semantic HTML
-+ Header
-+ Footer
-+ section
-+ article
-+ aside
-+ main
++ Header: 
++ `Footer`:  
++ `Section`: Independent parts of the content
++ `Article`: Element with self contained information such that it could be extracted and move anywhere and it would keep its meaning.
++ `Aside`: Supplementary information somewhat related to the main content
++ `Main`: Principal content of the page that makes it unique 
++ `Small`: Secondary explanation or clarification. 
