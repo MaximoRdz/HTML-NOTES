@@ -73,3 +73,10 @@ They provide additional information to HTML elements, they can be **global** (`i
 + `Aside`: Supplementary information somewhat related to the main content
 + `Main`: Principal content of the page that makes it unique 
 + `Small`: Secondary explanation or clarification. 
+## Loading lazy
+Load images only when required by the user. Optimizing the page resources. 
+```html
+<img loading="lazy" src="...">
+```
+## Iframes
+They allow us to embed another webpage into ours.
