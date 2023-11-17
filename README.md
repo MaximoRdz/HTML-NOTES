@@ -1,4 +1,4 @@
-# HTML-NOTES
+# HTML-CSS-NOTES
 ## Basic Structure
 ```html
 <!DOCTYPE html>
@@ -80,3 +80,31 @@ Load images only when required by the user. Optimizing the page resources.
 ```
 ## Iframes
 They allow us to embed another webpage into ours.
+## Adding Styles
+```html
+<!DOCTYPE html>
+<html>
+	<!--This html contains all the content of the document-->
+	<head>
+		<!--Metadata information that will not be rendered, check also open graph-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Title that will appear when browsing this page</title>
+		<meta name="description" content="Page content description 
+		displayed together with the title when browsed">
+		
+		
+		<style>
+			<!--
+		<style/>
+	</head>
+	<body>
+		<!--Contains everything that WILL BE RENDERED-->
+	</body>
+</html>
+<!--This is a comment-->
+```
+## References
+1. [MDN Web Docs (mozilla.org)](https://developer.mozilla.org/en-US/)
+1. [CSS Documentation](https://lenguajecss.com/)
+1. [Learn CSS](https://web.dev/learn/css?hl=es)
