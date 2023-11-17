@@ -2,7 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        
+        <!--Styling with css-->
+        <style>
+            /*selector selects the element we want to style*/
+            /* selector {
+                 property: value; --> declare
+                }
+            */
+            h1 {
+                color: rgb(9, 9, 24);
+                border: 5px;
+                border-style: solid;
+                border-color: currentColor;
+            }
+
+            body {
+                background-color: rgba(30, 41, 97, 0.4);/*opacity*/  
+                font-family:'Arial Narrow', Arial, sans-serif;  /*fonts fallbacks*/
+                font-size: large;
+            }
+            /*    .name indicates a class*/
+            .link {
+                color: red; 
+            }
+
+        </style>
     </head>
     <body>
         <header>
@@ -10,13 +34,13 @@
 
             <nav>
                 <!--anchor tag allows us to navigate internally or externally-->
-                <a href="#experiencia">Experiencia</a>
-                <a href="#projectos">Proyectos</a>
+                <a class="link" href="#experiencia">Experiencia</a>
+                <a class="link" href="#projectos">Proyectos</a>
                 <!--
                     target attribute to open page on a new window
                     rel attribute security not share more info than neccesary
                 -->
-                <a 
+                <a class="link" 
                   href="https://github.com/MaximoRdz"
                   target="_blank"
                   rel="noreferrer"
@@ -43,7 +67,6 @@
             <!--This is a comment-->
 
             <img 
-                hidden  
                 class="image"
                 id="profile-picture"
                 width=250
@@ -174,7 +197,9 @@
             <div>
                 <img src="./images/profile.png" loading="lazy">
             </div>
-            <iframe style="width: 100%; aspect-ratio: 18/9;" src="https://www.youtube.com/embed/Aq7rDQx9jns" 
+            <iframe style="width: 60%; aspect-ratio: 18/9;" 
+            autoplay loop muted
+            src="https://www.youtube.com/embed/Aq7rDQx9jns" 
             title="SpaceX Nails Landing of Reusable Rocket on Land" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
             gyroscope; picture-in-picture; web-share" 
